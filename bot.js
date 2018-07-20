@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	message.reply('nep');
   	}
     if (message.content==="nep"){
         message.channel.send("nep nep");
@@ -23,6 +23,7 @@ client.on('message', message => {
         }
         nep=0;
     }
+    if (message.content==="
             
 });
 

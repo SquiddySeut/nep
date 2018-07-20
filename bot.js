@@ -47,7 +47,7 @@ client.on('message', message => {
         nepcount=50;
     }
     if (message.content==="nep nep"&&n===2){
-        //nep=2;
+        nep=0;
         while(nep<nepcount){
             message.channel.send("nep nep nep nep nep nep nep nep nep");
             nep++;

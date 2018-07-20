@@ -16,6 +16,7 @@ client.on('message', message => {
         message.channel.send("nep nep");
     }
     if (message.content==="nep nep"){
+        nep=0;
         while(nep<10){
             message.channel.send("nep nep nep nep nep nep nep nep nep");
             nep++;

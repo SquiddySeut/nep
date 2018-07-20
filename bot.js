@@ -10,10 +10,10 @@ client.on('message', message => {
     	message.reply('pong');
   	}
     if (message.content==="nep"){
-        message.channel.send("nep nep"):
+        message.channel.send("nep nep");
     }
     if (message.content==="Nep"){
-        message.channel.send("nep nep"):
+        message.channel.send("nep nep");
     }
 });
 

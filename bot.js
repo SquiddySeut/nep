@@ -23,7 +23,7 @@ client.on('message', message => {
         }
         nep=0;
     }
-    if (message.content==="
+    //if (message.content==="
             
 });
 

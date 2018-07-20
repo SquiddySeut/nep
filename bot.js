@@ -16,7 +16,7 @@ client.on('message', message => {
     if (message.content==="Nep"){
         message.channel.send("nep nep");
     }
-    if (message.content==="nepcount){
+    if (message.content==="nepcount"){
         message.reply("What's the nepcount?");
         n=1;
         nepcount=10;

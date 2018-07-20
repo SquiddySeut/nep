@@ -15,6 +15,14 @@ client.on('message', message => {
     if (message.content==="Nep"){
         message.channel.send("nep nep");
     }
+    if (message.content==="nep nep"){
+        while(nep<10){
+            message.channel.send("nep nep nep nep nep nep nep nep nep");
+            nep++;
+        }
+        nep=0;
+    }
+            
 });
 
 // THIS  MUST  BE  THIS  WAY
